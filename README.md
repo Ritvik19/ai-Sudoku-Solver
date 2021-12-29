@@ -1,6 +1,6 @@
 # [ai-Sudoku-Solver](https://github.com/Ritvik19/ai-Sudoku-Solver)
 
-Solving Sudoku pPzzles using Artificial Neural Networks
+Solving Sudoku Puzzles using Artificial Neural Networks
 
 [![Downloads](https://pepy.tech/badge/ai-sudoku-solver)](https://pepy.tech/project/ai-sudoku-solver)
 [![Downloads](https://pepy.tech/badge/ai-sudoku-solver/month)](https://pepy.tech/project/ai-sudoku-solver)
