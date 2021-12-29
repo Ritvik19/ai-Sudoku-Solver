@@ -69,5 +69,5 @@ solution = solver(puzzle)
 ## Model Gallery
 
 | model         | # parameters |
-| ------------- | ------------ |
-| sudoku-net-v1 | 3,784,729    |
+| ------------- | -----------: |
+| sudoku-net-v1 |    3,784,729 |
