@@ -1,4 +1,4 @@
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 
 import os
 
@@ -10,17 +10,32 @@ from tqdm import tqdm
 
 
 class SudokuSolver():
-    def __init__(self, model_name_or_path):
-        self.model = self.load_model(model_name_or_path)
+    """Utility class for the pipeline which solves the Sudoku Puzzles
+    To solve Sudoku Puzzles 
+    
+    initialize a Sudoku Solver object
+    
+    create an array of dimension (n, 9, 9)
+    where n is the number of puzzles you want to solve
+    also, replace the blank items with a zero.
+    
+    then, just call the sudoku solver object on the array
+    
+    Args:
+        model_name (str): THe name of the model to be used
         
-    def load_model(self, model_name_or_path):
+    """
+    def __init__(self, model_name):
+        self.model = self.load_model(model_name)
+        
+    def load_model(self, model_name):
         model_root_path = os.path.join(os.path.expanduser("~"), 'ai-models-cache')
-        model_file_path = os.path.join(model_root_path, f'{model_name_or_path}.h5')
+        model_file_path = os.path.join(model_root_path, f'{model_name}.h5')
         if not os.path.exists(model_file_path):
             if not os.path.exists(model_root_path):
                 os.mkdir(model_root_path)
         
-            response = requests.get(f"https://ritvik19.github.io/ai-models/{model_name_or_path}.h5", stream=True)
+            response = requests.get(f"https://ritvik19.github.io/ai-models/{model_name}.h5", stream=True)
             with open(model_file_path, "wb") as handle:
                 for data in tqdm(response.iter_content(1_048_576)):
                     handle.write(data)

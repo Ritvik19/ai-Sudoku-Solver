@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "ai-Sudoku-Solver"
-version = "1.0.0"
-description = ""
+version = "1.0.1"
+description = "A python library for solving sudoku puzzles using artificial neural networks"
 authors = ["Ritvik19 <rastogiritvik99@gmail.com>"]
 readme = "README.md"
 
