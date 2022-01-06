@@ -68,6 +68,7 @@ solution = solver(puzzle)
 
 ## Model Gallery
 
-| model         | # parameters | trained on |
-| ------------- | -----------: | ---------: |
-| sudoku-net-v1 |    3,784,729 | 1M puzzles |
+| model         | # parameters |  trained on |
+| ------------- | -----------: | ----------: |
+| sudoku-net-v1 |    3,784,729 |  1M puzzles |
+| sudoku-net-v2 |    3,784,729 | 10M puzzles |
