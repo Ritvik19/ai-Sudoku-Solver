@@ -70,5 +70,5 @@ solution = solver(puzzle)
 
 | model         | # parameters |  trained on | accuracy |
 | ------------- | -----------: | ----------: | -------: |
-| sudoku-net-v1 |    3,784,729 |  1M puzzles |    91.56 |
-| sudoku-net-v2 |    3,784,729 | 10M puzzles |    91.71 |
+| sudoku-net-v1 |    3,784,729 |  1M puzzles |   98.138 |
+| sudoku-net-v2 |    3,784,729 | 10M puzzles |   98.212 |
