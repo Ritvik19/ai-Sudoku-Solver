@@ -15,6 +15,7 @@ Solving Sudoku Puzzles using Artificial Neural Networks
   - [Installation](#installation)
   - [Usage](#usage)
   - [Model Gallery](#model-gallery)
+  - [References](#references)
 
 ---
 
@@ -72,3 +73,8 @@ solution = solver(puzzle)
 | ------------- | -----------: | ----------: | -------: |
 | sudoku-net-v1 |    3,784,729 |  1M puzzles |   98.138 |
 | sudoku-net-v2 |    3,784,729 | 10M puzzles |   98.212 |
+
+## References
+
+1. [1 million Sudoku games](https://www.kaggle.com/bryanpark/sudoku)
+2. [9 Million Sudoku Puzzles and Solutions](https://www.kaggle.com/rohanrao/sudoku)
