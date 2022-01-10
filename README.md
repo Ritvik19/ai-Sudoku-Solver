@@ -34,7 +34,7 @@ Instantiate a SudokuSolver object
 ```python
 from ai_sudoku_solver import SudokuSolver
 
-solver = SudokuSolver("sudoku-net-v1")
+solver = SudokuSolver("Ritvik19/sudoku-net-v1")
 ```
 
 Call the model on your puzzles

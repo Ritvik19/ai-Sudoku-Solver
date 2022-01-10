@@ -3,11 +3,11 @@ from ai_sudoku_solver import __version__, SudokuSolver
 
 
 def test_version():
-    assert __version__ == '1.0.4'
+    assert __version__ == '1.0.5'
 
 
 def test_run():
-    model = SudokuSolver("sudoku-net-v1")
+    model = SudokuSolver("Ritvik19/sudoku-net-v1")
     grid = np.array([[
         [0, 0, 4, 3, 0, 0, 2, 0, 9],
         [0, 0, 5, 0, 0, 9, 0, 0, 1],
