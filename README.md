@@ -69,10 +69,10 @@ solution = solver(puzzle)
 
 ## Model Gallery
 
-| model         | # parameters |  trained on | accuracy |
-| ------------- | -----------: | ----------: | -------: |
-| sudoku-net-v1 |    3,784,729 |  1M puzzles |   98.138 |
-| sudoku-net-v2 |    3,784,729 | 10M puzzles |   98.212 |
+| model                                                          | # parameters |  trained on | accuracy |
+| -------------------------------------------------------------- | -----------: | ----------: | -------: |
+| [sudoku-net-v1](https://huggingface.co/Ritvik19/sudoku-net-v1) |    3,784,729 |  1M puzzles |   98.138 |
+| [sudoku-net-v2](https://huggingface.co/Ritvik19/sudoku-net-v2) |    3,784,729 | 10M puzzles |   98.212 |
 
 ## References
 

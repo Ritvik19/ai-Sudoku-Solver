@@ -3,7 +3,7 @@ from ai_sudoku_solver import __version__, SudokuSolver
 
 
 def test_version():
-    assert __version__ == '1.0.5'
+    assert __version__ == '1.0.6'
 
 
 def test_run():
